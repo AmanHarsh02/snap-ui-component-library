@@ -1,0 +1,26 @@
+.components__page {
+  padding: 1em;
+  margin-top: 2em;
+}
+
+.component__list {
+  display: grid;
+  grid-template-columns: repeat(3, calc(33% - 0.5em));
+  row-gap: 1em;
+  column-gap: 0.5em;
+  justify-content: space-between;
+}
+
+.component__list__item {
+  background-color: var(--color-primary-light);
+  border-radius: 0.4em;
+  color: var(--color-text-white);
+  cursor: pointer;
+  padding: 1em;
+  text-align: center;
+  transition: background-color 0.2s ease;
+}
+
+.component__list__item:hover {
+  background-color: var(--color-primary);
+}

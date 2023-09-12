@@ -5,7 +5,9 @@ export const Navbar = () => {
   return (
     <nav>
       <h2>
-        <NavLink to="/">Component Library</NavLink>
+        <NavLink className="brand__text" to="/">
+          SNAP-UI
+        </NavLink>
       </h2>
 
       <div className="search__bar">

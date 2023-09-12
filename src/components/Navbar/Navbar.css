@@ -1,5 +1,8 @@
 nav {
   align-items: center;
+  border-bottom-left-radius: 0.4em;
+  border-bottom-right-radius: 0.4em;
+  box-shadow: 0px 5px 10px var(--color-text-lightgray);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -8,12 +11,24 @@ nav {
   padding: 1em;
 }
 
+nav .brand__text {
+  transition: color 0.2s ease;
+}
+
+nav .brand__text:hover {
+  color: var(--color-primary);
+}
+
 nav .search__bar {
   display: flex;
   border-radius: 0.4em;
-  border: 0.2em solid rgb(172, 169, 169);
-  font-size: 1.1em;
+  border: 0.15em solid var(--color-text-lightgray);
   overflow: hidden;
+  transition: border 0.2s ease;
+}
+
+nav .search__bar:focus-within {
+  border: 0.15em solid var(--color-primary);
 }
 
 nav input {
@@ -23,11 +38,16 @@ nav input {
 }
 
 nav .search__btn {
-  background-color: blueviolet;
+  background-color: var(--color-primary);
   border: none;
-  color: white;
+  color: var(--color-text-white);
   cursor: pointer;
   outline: none;
+  transition: background-color 0.2s ease;
+}
+
+nav .search__btn:hover {
+  background-color: var(--color-primary-light);
 }
 
 .nav__pills {
@@ -36,12 +56,12 @@ nav .search__btn {
 
 .nav__pills a {
   cursor: pointer;
-  color: inherit;
-  font-size: 1.2rem;
-  margin-right: 1rem;
+  font-size: 1.2em;
+  margin-right: 1em;
   text-decoration: none;
+  transition: color 0.2s ease;
 }
 
 .nav__pills :hover {
-  color: blueviolet;
+  color: var(--color-primary);
 }
