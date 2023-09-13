@@ -1,0 +1,28 @@
+.avatar {
+  align-items: center;
+  border-radius: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.avatar img {
+  height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.avatar-sm {
+  height: 50px;
+  width: 50px;
+}
+
+.avatar-md {
+  height: 100px;
+  width: 100px;
+}
+
+.avatar-lg {
+  height: 150px;
+  width: 150px;
+}

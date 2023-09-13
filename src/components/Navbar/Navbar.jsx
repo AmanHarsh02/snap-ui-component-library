@@ -19,6 +19,13 @@ export const Navbar = () => {
         <NavLink to="/">Home</NavLink>
 
         <NavLink to="/components">Components</NavLink>
+
+        <NavLink
+          to="https://github.com/AmanHarsh02/snap-ui-component-library"
+          target="blank"
+        >
+          GitHub
+        </NavLink>
       </div>
     </nav>
   );

@@ -6,3 +6,7 @@ export { CardDoc } from "./CardDoc";
 export { HeadingDoc } from "./HeadingDoc";
 export { ImageDoc } from "./ImageDoc";
 export { TextDoc } from "./TextDoc";
+export { CodeBlock } from "./CodeBlock/CodeBlock";
+export { ComponentBlock } from "./ComponentBlock/ComponentBlock";
+export { Description } from "./Description/Description";
+export { Header } from "./Header/Header";

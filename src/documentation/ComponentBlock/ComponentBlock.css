@@ -1,0 +1,26 @@
+.direction-row {
+  display: flex;
+  gap: 1em;
+}
+
+.direction-column {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.align-start {
+  align-items: end;
+}
+
+.align-end {
+  align-items: end;
+}
+
+.align-left {
+  align-items: end;
+}
+
+.align-right {
+  align-items: end;
+}
