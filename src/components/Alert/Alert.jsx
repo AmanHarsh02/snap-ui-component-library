@@ -35,10 +35,8 @@ export const Alert = ({ children, status }) => {
   const alertData = getAlertData(status);
 
   return (
-    <div>
-      <p className={`alert ${alertData?.class}`}>
-        {alertData?.icon} {children}
-      </p>
-    </div>
+    <p className={`alert ${alertData?.class}`}>
+      {alertData?.icon} {children}
+    </p>
   );
 };

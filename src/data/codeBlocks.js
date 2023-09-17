@@ -27,3 +27,13 @@ export const badgeBasicCode = `<Badge size="sm" text="New" status="primary" />
 <Badge size="lg" text="Completed" status="success" />
 
 <Badge size="md" text="Error" status="error" />`;
+
+export const buttonBasicCode = `<Button type="solid" text="Solid Button" onClick={handleClick} />
+
+<Button type="solid" text="Solid Button" onClick={handleClick} disabled />
+
+<Button type="outline" text="Outline Button" onClick={handleClick} />
+
+<Button type="ghost" text="Ghost Button" onClick={handleClick} />
+
+<Button type="link" text="Link Button" onClick={handleClick} />`;
