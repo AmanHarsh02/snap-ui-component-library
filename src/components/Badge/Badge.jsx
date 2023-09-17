@@ -1,4 +1,3 @@
-import React from "react";
 import "../Badge/Badge.css";
 
 export const Badge = ({ size, text, status }) => {

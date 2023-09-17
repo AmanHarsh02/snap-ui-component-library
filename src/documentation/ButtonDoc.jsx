@@ -1,8 +1,14 @@
 import "../css/utility.css";
 import { CodeBlock, ComponentBlock, Description, Header } from "./index";
 import "../css/utility.css";
-import { buttonBasicCode } from "../data/codeBlocks";
-import { Button } from "../components/index";
+import { buttonBasicCode, iconButtonCode } from "../data/codeBlocks";
+import { Button, IconButton } from "../components/index";
+import {
+  BiSearch as SearchIcon,
+  BiEdit as EditIcon,
+  BiTrashAlt as DeleteIcon,
+} from "react-icons/bi";
+import { AiOutlinePlus as AddIcon } from "react-icons/ai";
 
 export const ButtonDoc = () => {
   const handleClick = () => {
@@ -32,6 +38,43 @@ export const ButtonDoc = () => {
 
       <CodeBlock heading="How to use button component?">
         {buttonBasicCode}
+      </CodeBlock>
+
+      <Header>IconButton Component</Header>
+
+      <Description>
+        IconButton component combines icons with text for actions.
+      </Description>
+
+      <ComponentBlock direction="row">
+        <IconButton
+          icon={<SearchIcon size={20} fill="blueviolet" />}
+          textColor="blueviolet"
+          text="Search"
+          onClick={handleClick}
+        />
+        <IconButton
+          icon={<EditIcon size={20} fill="blue" />}
+          textColor="blue"
+          text="Edit"
+          onClick={handleClick}
+        />
+        <IconButton
+          icon={<DeleteIcon size={20} fill="red" />}
+          textColor="red"
+          text="Delete"
+          onClick={handleClick}
+        />
+        <IconButton
+          icon={<AddIcon size={20} fill="green" />}
+          textColor="green"
+          text="add"
+          onClick={handleClick}
+        />
+      </ComponentBlock>
+
+      <CodeBlock heading="How to use icon button component?">
+        {iconButtonCode}
       </CodeBlock>
     </section>
   );

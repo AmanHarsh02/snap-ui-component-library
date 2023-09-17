@@ -1,4 +1,3 @@
-import React from "react";
 import "./Avatar.css";
 import "../../css/utility.css";
 
