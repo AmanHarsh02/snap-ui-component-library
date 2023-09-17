@@ -11,7 +11,7 @@ export const BadgeDoc = () => {
 
       <Description>
         The Badge component is used to highlight and display short information,
-        labels or statuses
+        labels or statuses.
       </Description>
 
       <ComponentBlock direction="row" align="end">
