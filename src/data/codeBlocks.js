@@ -37,3 +37,11 @@ export const buttonBasicCode = `<Button type="solid" text="Solid Button" onClick
 <Button type="ghost" text="Ghost Button" onClick={handleClick} />
 
 <Button type="link" text="Link Button" onClick={handleClick} />`;
+
+export const iconButtonCode = `<IconButton icon={<SearchIcon size={20} fill="blueviolet" />} textColor="blueviolet" text="Search" onClick={handleClick} />
+
+<IconButton icon={<EditIcon size={20} fill="blue" />} textColor="blue" text="Edit" onClick={handleClick} />
+
+<IconButton icon={<DeleteIcon size={20} fill="red" />} textColor="red" text="Delete" onClick={handleClick} />
+
+<IconButton icon={<AddIcon size={20} fill="green" />} textColor="green" text="add" onClick={handleClick} />`;
