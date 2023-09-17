@@ -9,12 +9,15 @@
   --color-text-white: white;
   --color-text-gray: gray;
   --color-text-lightgray: lightgray;
+  --color-bg-gray: #6c757d;
   --color-error: #c31e24;
   --color-error-light: #ff9495;
+  --color-error-bg: #dc3545;
   --color-warning: #eaa221;
   --color-warning-light: #ffe88b;
   --color-success: green;
   --color-success-light: #c6ffc1;
+  --color-success-bg: #28a745;
   --color-info: #0363af;
   --color-info-light: #b6d8ff;
 }

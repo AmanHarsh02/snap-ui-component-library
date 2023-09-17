@@ -19,3 +19,11 @@ export const alertBasicCode = `<Alert status="error">
 <Alert status="info">
     Sale is going live on 1 November, 2023.
 </Alert>`;
+
+export const badgeBasicCode = `<Badge size="sm" text="New" status="primary" />
+
+<Badge size="md" text="In Progress" status="secondary" />
+
+<Badge size="lg" text="Completed" status="success" />
+
+<Badge size="md" text="Error" status="error" />`;
