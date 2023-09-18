@@ -28,20 +28,38 @@ export const badgeBasicCode = `<Badge size="sm" text="New" status="primary" />
 
 <Badge size="md" text="Error" status="error" />`;
 
-export const buttonBasicCode = `<Button type="solid" text="Solid Button" onClick={handleClick} />
+export const buttonBasicCode = `<Button type="solid" variant="primary" onClick={handleClick}>
+        Solid Button
+</Button>
 
-<Button type="solid" text="Solid Button" onClick={handleClick} disabled />
+<Button type="solid" variant="secondary" onClick={handleClick} disabled>
+        Solid Button
+</Button>
 
-<Button type="outline" text="Outline Button" onClick={handleClick} />
+<Button type="outline" variant="success" onClick={handleClick}>
+        Outline Button
+</Button>
 
-<Button type="ghost" text="Ghost Button" onClick={handleClick} />
+<Button type="ghost" variant="error" onClick={handleClick}>
+        Ghost Button
+</Button>
 
-<Button type="link" text="Link Button" onClick={handleClick} />`;
+<Button type="link" href="https://www.google.com/">
+        Link Button
+</Button>`;
 
-export const iconButtonCode = `<IconButton icon={<SearchIcon size={20} fill="blueviolet" />} textColor="blueviolet" text="Search" onClick={handleClick} />
+export const iconButtonCode = `<IconButton icon={<SearchIcon size={20}  className="icon" />} type="solid" variant="primary" onClick={handleClick}>
+        Search
+</IconButton>
 
-<IconButton icon={<EditIcon size={20} fill="blue" />} textColor="blue" text="Edit" onClick={handleClick} />
+<IconButton icon={<EditIcon size={20} className="icon" />} type="outline" variant="secondary" onClick={handleClick}>
+        Edit
+</IconButton>
 
-<IconButton icon={<DeleteIcon size={20} fill="red" />} textColor="red" text="Delete" onClick={handleClick} />
+<IconButton icon={<DeleteIcon size={20} className="icon" />} type="ghost" variant="error" onClick={handleClick}>
+        Delete
+</IconButton>
 
-<IconButton icon={<AddIcon size={20} fill="green" />} textColor="green" text="add" onClick={handleClick} />`;
+<IconButton icon={<AddIcon size={20} className="icon" />} type="ghost" variant="success" onClick={handleClick}>
+        Add
+</IconButton>`;
