@@ -1,8 +1,12 @@
 import "../css/utility.css";
 import { CodeBlock, ComponentBlock, Description, Header } from "./index";
 import "../css/utility.css";
-import { buttonBasicCode, iconButtonCode } from "../data/codeBlocks";
-import { Button, IconButton } from "../components/index";
+import {
+  buttonBasicCode,
+  floatingActionButtonCode,
+  iconButtonCode,
+} from "../data/codeBlocks";
+import { Button, FloatingActionButton, IconButton } from "../components/index";
 import {
   BiSearch as SearchIcon,
   BiEdit as EditIcon,
@@ -97,9 +101,26 @@ export const ButtonDoc = () => {
         interactions.
       </Description>
 
-      <ComponentBlock direction="row"></ComponentBlock>
+      <ComponentBlock direction="row">
+        <FloatingActionButton
+          type="solid"
+          variant="primary"
+          onClick={handleClick}
+        >
+          <AddIcon size={20} className="icon" />
+        </FloatingActionButton>
+        <FloatingActionButton
+          type="outline"
+          variant="success"
+          onClick={handleClick}
+        >
+          <EditIcon size={20} className="icon" />
+        </FloatingActionButton>
+      </ComponentBlock>
 
-      <CodeBlock heading="How to use icon button component?">{}</CodeBlock>
+      <CodeBlock heading="How to use floating action button component?">
+        {floatingActionButtonCode}
+      </CodeBlock>
     </section>
   );
 };
