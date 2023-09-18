@@ -14,7 +14,7 @@ export const IconButton = ({
   return (
     <button
       className={`button icon-button ${typeStyle} ${variantStyle}`}
-      onClick={onClick}
+      onClick={() => onClick && onClick()}
     >
       {icon}
       {children}

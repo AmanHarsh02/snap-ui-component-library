@@ -63,3 +63,11 @@ export const iconButtonCode = `<IconButton icon={<SearchIcon size={20}  classNam
 <IconButton icon={<AddIcon size={20} className="icon" />} type="ghost" variant="success" onClick={handleClick}>
         Add
 </IconButton>`;
+
+export const floatingActionButtonCode = `<FloatingActionButton type="solid" variant="primary" onClick={handleClick}>
+        <AddIcon size={20} className="icon" />
+</FloatingActionButton>
+
+<FloatingActionButton type="outline" variant="success" onClick={handleClick}>
+        <EditIcon size={20} className="icon" />
+</FloatingActionButton>`;
