@@ -24,16 +24,21 @@ export const ButtonDoc = () => {
       </Description>
 
       <ComponentBlock direction="row">
-        <Button type="solid" text="Solid Button" onClick={handleClick} />
-        <Button
-          type="solid"
-          text="Solid Button"
-          onClick={handleClick}
-          disabled
-        />
-        <Button type="outline" text="Outline Button" onClick={handleClick} />
-        <Button type="ghost" text="Ghost Button" onClick={handleClick} />
-        <Button type="link" text="Link Button" onClick={handleClick} />
+        <Button type="solid" variant="primary" onClick={handleClick}>
+          Solid Button
+        </Button>
+        <Button type="solid" variant="secondary" onClick={handleClick} disabled>
+          Solid Button
+        </Button>
+        <Button type="outline" variant="success" onClick={handleClick}>
+          Outline Button
+        </Button>
+        <Button type="ghost" variant="error" onClick={handleClick}>
+          Ghost Button
+        </Button>
+        <Button type="link" href="https://www.google.com/">
+          Link Button
+        </Button>
       </ComponentBlock>
 
       <CodeBlock heading="How to use button component?">
@@ -48,34 +53,53 @@ export const ButtonDoc = () => {
 
       <ComponentBlock direction="row">
         <IconButton
-          icon={<SearchIcon size={20} fill="blueviolet" />}
-          textColor="blueviolet"
-          text="Search"
+          icon={<SearchIcon size={20} className="icon" />}
+          type="solid"
+          variant="primary"
           onClick={handleClick}
-        />
+        >
+          Search
+        </IconButton>
         <IconButton
-          icon={<EditIcon size={20} fill="blue" />}
-          textColor="blue"
-          text="Edit"
+          icon={<EditIcon size={20} className="icon" />}
+          type="outline"
+          variant="secondary"
           onClick={handleClick}
-        />
+        >
+          Edit
+        </IconButton>
         <IconButton
-          icon={<DeleteIcon size={20} fill="red" />}
-          textColor="red"
-          text="Delete"
+          icon={<DeleteIcon size={20} className="icon" />}
+          type="ghost"
+          variant="error"
           onClick={handleClick}
-        />
+        >
+          Delete
+        </IconButton>
         <IconButton
-          icon={<AddIcon size={20} fill="green" />}
-          textColor="green"
-          text="add"
+          icon={<AddIcon size={20} className="icon" />}
+          type="ghost"
+          variant="success"
           onClick={handleClick}
-        />
+        >
+          Add
+        </IconButton>
       </ComponentBlock>
 
       <CodeBlock heading="How to use icon button component?">
         {iconButtonCode}
       </CodeBlock>
+
+      <Header>FloatingActionButton Component</Header>
+
+      <Description>
+        FloatingActionButton component provide quick actions for user
+        interactions.
+      </Description>
+
+      <ComponentBlock direction="row"></ComponentBlock>
+
+      <CodeBlock heading="How to use icon button component?">{}</CodeBlock>
     </section>
   );
 };

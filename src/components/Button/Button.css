@@ -1,5 +1,5 @@
 .button {
-  padding: 0.6em 1.2em;
+  padding: 0.4em 0.8em;
   border: none;
   cursor: pointer;
   border-radius: 4px;
@@ -21,6 +21,7 @@
   background-color: transparent;
   border: none;
   color: var(--color-primary);
+  transition: all 0.2s ease;
 }
 
 .button-link {
@@ -28,10 +29,80 @@
   border: none;
   color: var(--color-primary);
   text-decoration: underline;
-  padding: 0;
+  transition: all 0.2s ease;
 }
 
 .button-disabled {
   background-color: var(--color-bg-gray);
   cursor: not-allowed;
+}
+
+.button-primary {
+  background-color: var(--color-primary);
+}
+
+.button-secondary {
+  background-color: var(--color-bg-gray);
+  border-color: var(--color-text-gray);
+}
+
+.button-success {
+  color: var(--color-success-bg);
+  border-color: var(--color-success-bg);
+}
+
+.button-error {
+  color: var(--color-error-bg);
+  border-color: var(--color-error-bg);
+}
+
+.button:not(.button-solid):is(
+    .button-primary,
+    .button-secondary,
+    .button-success,
+    .button-error
+  ) {
+  background-color: transparent;
+}
+
+.button:not(.button-solid):is(.button-ghost, .button-link):hover {
+  background-color: var(--color-text-lightgray);
+}
+
+.button:not(.button-solid):is(.button-primary) {
+  color: var(--color-primary);
+}
+
+.button:not(.button-solid):is(.button-secondary) {
+  color: var(--color-text-gray);
+}
+
+.button-solid:is(.button-success) {
+  color: var(--color-text-white);
+  background-color: var(--color-success-bg);
+}
+
+.button-solid:is(.button-error) {
+  color: var(--color-text-white);
+  background-color: var(--color-error-bg);
+}
+
+.button:is(.button-primary) > .icon {
+  fill: var(--color-primary);
+}
+
+.button:is(.button-secondary) > .icon {
+  fill: var(--color-text-gray);
+}
+
+.button:is(.button-success) > .icon {
+  fill: var(--color-success-bg);
+}
+
+.button:is(.button-error) > .icon {
+  fill: var(--color-error-bg);
+}
+
+.button:is(.button-solid) > .icon {
+  fill: var(--color-text-white);
 }
