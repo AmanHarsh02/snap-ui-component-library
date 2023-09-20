@@ -108,3 +108,23 @@ export const cardCode = `<Card>
 >
         This is a horizontal card with image.
 </Card>`;
+
+export const headingCode = `<Heading size="xl" weight="bolder">
+        Extra Large Heading
+</Heading>
+
+<Heading size="lg" weight="bold">
+        Large Heading
+</Heading>
+
+<Heading size="md" weight="semi-bold">
+        Medium Heading
+</Heading>
+
+<Heading size="sm" weight="normal">
+        Small Heading
+</Heading>
+
+<Heading size="xs" weight="light">
+        Extra Small Heading
+</Heading>`;
