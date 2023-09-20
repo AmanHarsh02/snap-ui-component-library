@@ -5,3 +5,4 @@ export { Badge } from "./Badge/Badge";
 export { Button } from "./Button/Button";
 export { IconButton } from "./IconButton/IconButton";
 export { FloatingActionButton } from "./FloatingActionButton/FloatingActionButton";
+export { Card } from "./Card/Card";

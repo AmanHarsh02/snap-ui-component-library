@@ -1,5 +1,5 @@
 .shadow-sm {
-  box-shadow: 0px 2px 5px ligh;
+  box-shadow: 0px 2px 5px gray;
 }
 
 .shadow-md {
@@ -8,6 +8,18 @@
 
 .shadow-lg {
   box-shadow: 0px 5px 10px gray;
+}
+
+.border-sm {
+  border: 1px solid var(--color-text-black);
+}
+
+.border-md {
+  border: 2px solid var(--color-text-black);
+}
+
+.border-lg {
+  border: 3px solid var(--color-text-black);
 }
 
 .documentation__page {
