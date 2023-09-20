@@ -1,0 +1,17 @@
+.text-xl {
+  font-size: 2em;
+}
+.text-lg {
+  font-size: 1.75em;
+}
+.text-md {
+  font-size: 1.5em;
+}
+
+.text-sm {
+  font-size: 1.25em;
+}
+
+.text-xs {
+  font-size: 1em;
+}

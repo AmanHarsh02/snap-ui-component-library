@@ -128,3 +128,9 @@ export const headingCode = `<Heading size="xl" weight="bolder">
 <Heading size="xs" weight="light">
         Extra Small Heading
 </Heading>`;
+
+export const textCode = `<Text size="xl">Extra Large Text</Text>
+<Text size="lg">Large Text</Text>
+<Text size="md">Medium Text</Text>
+<Text size="sm">Small Text</Text>
+<Text size="xs">Extra Small Text</Text>`;
