@@ -1,0 +1,37 @@
+.heading-xl {
+  font-size: 2em;
+}
+.heading-lg {
+  font-size: 1.75em;
+}
+.heading-md {
+  font-size: 1.5em;
+}
+
+.heading-sm {
+  font-size: 1.25em;
+}
+
+.heading-xs {
+  font-size: 1em;
+}
+
+.heading-weight-bolder {
+  font-weight: 800;
+}
+
+.heading-weight-bold {
+  font-weight: 700;
+}
+
+.heading-weight-semi-bold {
+  font-weight: 600;
+}
+
+.heading-weight-normal {
+  font-weight: 500;
+}
+
+.heading-weight-light {
+  font-weight: 400;
+}
