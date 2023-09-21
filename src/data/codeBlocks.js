@@ -134,3 +134,33 @@ export const textCode = `<Text size="xl">Extra Large Text</Text>
 <Text size="md">Medium Text</Text>
 <Text size="sm">Small Text</Text>
 <Text size="xs">Extra Small Text</Text>`;
+
+export const imageCode = `<div className="image__container"> {/* image__container has width set to 50% */}
+        <Image imageSrc="https://images.unsplash.com/photo-1599664223843-9349c75196bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+        variant="responsive" />
+</div>
+
+<Image 
+imageSrc="https://images.unsplash.com/photo-1599664223843-9349c75196bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+variant="rounded"
+size="xs" />
+
+<Image
+mageSrc="https://images.unsplash.com/photo-1599664223843-9349c75196bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+variant="rounded"
+size="sm" />
+
+<Image
+imageSrc="https://images.unsplash.com/photo-1599664223843-9349c75196bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+variant="rounded"
+size="md" />
+
+<Image
+imageSrc="https://images.unsplash.com/photo-1599664223843-9349c75196bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+variant="rounded"
+size="lg" />
+
+<Image
+imageSrc="https://images.unsplash.com/photo-1599664223843-9349c75196bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+variant="rounded"
+size="xl" />`;
