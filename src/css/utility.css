@@ -27,9 +27,16 @@
   flex-direction: column;
   gap: 1em;
   padding: 1em;
+  width: 80%;
 }
 
 .image__container {
   width: 50%;
   height: auto;
+}
+
+.main {
+  display: flex;
+  height: 75vh;
+  width: 100%;
 }

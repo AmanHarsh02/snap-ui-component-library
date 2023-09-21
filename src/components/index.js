@@ -9,3 +9,4 @@ export { Card } from "./Card/Card";
 export { Heading } from "./Heading/Heading";
 export { Text } from "./Text/Text";
 export { Image } from "./Image/Image";
+export { Sidebar } from "./Sidebar/Sidebar";
