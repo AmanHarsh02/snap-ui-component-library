@@ -8,3 +8,4 @@ export { FloatingActionButton } from "./FloatingActionButton/FloatingActionButto
 export { Card } from "./Card/Card";
 export { Heading } from "./Heading/Heading";
 export { Text } from "./Text/Text";
+export { Image } from "./Image/Image";

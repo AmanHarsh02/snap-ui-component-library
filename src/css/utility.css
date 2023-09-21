@@ -28,3 +28,8 @@
   gap: 1em;
   padding: 1em;
 }
+
+.image__container {
+  width: 50%;
+  height: auto;
+}

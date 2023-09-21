@@ -1,6 +1,5 @@
 import "../css/utility.css";
 import { CodeBlock, ComponentBlock, Description, Header } from "./index";
-import "../css/utility.css";
 import {
   buttonBasicCode,
   floatingActionButtonCode,
