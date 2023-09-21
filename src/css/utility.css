@@ -27,7 +27,7 @@
   flex-direction: column;
   gap: 1em;
   padding: 1em;
-  width: 80%;
+  width: 88%;
 }
 
 .image__container {
@@ -37,6 +37,6 @@
 
 .main {
   display: flex;
-  height: 75vh;
+  height: 100%;
   width: 100%;
 }
